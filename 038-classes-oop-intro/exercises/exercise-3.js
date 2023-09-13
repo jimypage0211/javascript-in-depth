@@ -16,3 +16,40 @@
     * This is purposefully open-ended to allow you
       the creative freedom to design these classes
 */
+
+class Spaceship {
+    score = 0
+    constructor(lives) {
+        this.lives = lives;
+    }
+
+    shoot (){
+        "pew"
+    }
+}
+
+class FlyingAlien {
+    speed = 1;
+    constructor(type) {
+        this.type = type;
+        switch (this.type){
+            case "Crab": this.value = 10;
+                this.weapons = false;
+                break;
+            case "ET": this.value = 20;
+                this.weapons = false;
+                break;
+            case "Squid": this.value = 40;
+                this.weapons = true;
+                break;
+            case "SpaceShip": this.value = 100;
+                this.weapons = false;
+                break;
+        }
+    }
+    increaseSpeed (speed){
+        this.speed = speed;
+    }
+}
+
+

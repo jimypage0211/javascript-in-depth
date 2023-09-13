@@ -23,6 +23,7 @@
        console.log( spaceship.numRocketEngines ); // 2
 */
 
+/*
 class Vehicle {
   constructor(name, maxSpeed) {
     // logic
@@ -46,3 +47,4 @@ class Spaceship extends Vehicle {
 const spaceship = new Spaceship("Enterprise", 1000, 2);
 console.log(spaceship.getMaxSpeed()); // 1000
 console.log(spaceship.numRocketEngines); // 2
+*/

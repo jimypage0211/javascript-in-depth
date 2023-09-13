@@ -36,7 +36,7 @@
        // A round and awesome green circle
 */
 
-class Shape {
+/*class Shape {
   type = "Shape";
 
   constructor(colour = "Transparent") {
@@ -104,4 +104,4 @@ for (const shape of [square, rectangle, circle]) {
 }
 // A blue square
 // A red rectangle
-// A round and awesome green circle
+// A round and awesome green circle*/

@@ -46,3 +46,16 @@
        // A blue square
        // A red rectangle
 */
+
+class Shape {
+    constructor(colour = 'Transparent') {
+        this.colour = colour;
+        this.type = Shape;
+    }
+
+    describe (){
+        console.log(`A ${this.colour} ${this.type}`)
+    }
+}
+
+

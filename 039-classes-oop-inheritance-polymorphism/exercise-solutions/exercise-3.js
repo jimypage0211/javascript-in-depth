@@ -18,7 +18,7 @@
       the creative freedom to design these classes
 */
 
-class Alien {
+/*class Alien {
   constructor(name, sprite, hp, score, damage) {
     this.name = name;
     this.sprite = sprite;
@@ -46,4 +46,4 @@ class TankAlien {
   harden() {
     // add hp temp
   }
-}
+}*/

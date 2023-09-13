@@ -47,7 +47,7 @@
        // A red rectangle
 */
 
-class Shape {
+/*class Shape {
   type = "Shape";
 
   constructor(colour = "Transparent") {
@@ -92,4 +92,4 @@ console.log(square.area()); // 25
 console.log(rectangle.area()); // 30
 for (const shape of [square, rectangle]) shape.describe();
 // A blue square
-// A red rectangle
+// A red rectangle*/

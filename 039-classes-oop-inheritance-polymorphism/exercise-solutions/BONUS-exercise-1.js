@@ -31,7 +31,7 @@
         // FancyArray(3) [ 1, 3, 5 ]
 */
 
-class FancyArray extends Array {
+/*class FancyArray extends Array {
   //   constructor() {}
 
   mapWithLogging(callback, thisArg = this) {
@@ -67,4 +67,4 @@ console.log(mapped);
 // Current: 1, After Callback: 1
 // Current: 2, After Callback: 3
 // Current: 3, After Callback: 5
-// FancyArray(3) [ 1, 3, 5 ]
+// FancyArray(3) [ 1, 3, 5 ]*/

@@ -20,3 +20,8 @@
       - flying.__proto__
       - swimming.__proto__
 */
+
+class Factory {
+    constructor() {
+    }
+}

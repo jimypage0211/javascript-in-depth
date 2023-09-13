@@ -30,3 +30,28 @@
        1984 by George Orwell
        Harry Potter by J.K. Rowling
 */
+
+
+class Bookstore {
+    constructor(books) {
+        this.books = books;
+    }
+
+    listBooks(){
+        this.books.forEach((book) => console.log(`Name: ${book.name} --- Author: ${book.author}`))
+    }
+}
+
+class Book {
+    constructor(name, author) {
+        this.name = name;
+        this.author = author;
+    }
+}
+let harryPotter = new Book("Harry Potter and the Philosopher Stone", "J.K.Rowling");
+let momo = new Book("Momo", "Michael Ende");
+let books = [];
+books.push(harryPotter,momo);
+const myBookStore = new Bookstore(books);
+
+myBookStore.listBooks();
