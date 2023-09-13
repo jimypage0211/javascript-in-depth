@@ -39,4 +39,7 @@ class Student {
         let ret = this.grades.reduce((sum, grade) => sum += grade);
         return ret/this.grades.length
     }
+
 }
+const eva = new Student("Eva", "Arts", [95, 75, 83]);
+console.log(eva.gpa());
