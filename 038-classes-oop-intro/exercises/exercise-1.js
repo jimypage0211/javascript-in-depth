@@ -22,3 +22,21 @@
     6. Use the "gpa" method on "eva" to print out their average
        grade (Should be 84.33)
 */
+
+
+class Student {
+    constructor(name,major,grades) {
+        this.name = name;
+        this.major = major;
+        this.grades = grades;
+    }
+
+    addGrade(grade){
+        this.grades.push(grade);
+    }
+
+    gpa(){
+        let ret = this.grades.reduce((sum, grade) => sum += grade);
+        return ret/this.grades.length
+    }
+}

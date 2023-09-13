@@ -16,3 +16,11 @@
 
     *HINT: "this" will refer to the instance inside the class
 */
+
+class Animal {
+    constructor(type,name) {
+        this.type = type;
+        this.name = name;
+    }
+
+}

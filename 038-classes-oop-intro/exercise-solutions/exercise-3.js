@@ -17,7 +17,7 @@
       the creative freedom to design these classes
 */
 
-class Player {
+/*class Player {
   lives = 3;
   shootingDelay = 2000; // ms
   yPos = 500;
@@ -50,4 +50,4 @@ const spaceship = new Player();
 console.log(spaceship);
 
 const alien1 = new Enemy(10, 10);
-console.log(alien1);
+console.log(alien1);*/

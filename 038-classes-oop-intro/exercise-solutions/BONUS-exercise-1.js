@@ -21,6 +21,7 @@
       - swimming.__proto__
 */
 
+/*
 class EnemyFactory {
   generateFlyingEnemy(name) {
     return new (class FlyingEnemy {
@@ -57,13 +58,13 @@ flying.fly(); // batman can fly!
 const swimming = EnemyFactory.generateSwimmingEnemy("aquaman");
 swimming.swim(); // aquaman can swim!
 
-/*
+/!*
 - EnemyFactory
 - factory
 - factory.__proto__
 - flying.__proto__
 - swimming.__proto__
-*/
+*!/
 
 console.log(Object.getOwnPropertyNames(EnemyFactory));
 console.log(Object.getOwnPropertyNames(factory));
@@ -72,3 +73,4 @@ console.log(Object.getOwnPropertyNames(flying));
 console.log(Object.getOwnPropertyNames(flying.__proto__));
 console.log(Object.getOwnPropertyNames(swimming));
 console.log(Object.getOwnPropertyNames(swimming.__proto__));
+*/

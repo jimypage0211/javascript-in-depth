@@ -23,7 +23,7 @@
        grade (Should be 84.33)
 */
 
-class Student {
+/*class Student {
   constructor(name, major, grades) {
     this.name = name;
     this.major = major;
@@ -48,4 +48,4 @@ console.log(eva);
 
 console.log(eva.gpa());
 eva.addGrade(89);
-console.log(eva.gpa());
+console.log(eva.gpa());*/

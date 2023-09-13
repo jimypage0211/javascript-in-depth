@@ -31,6 +31,7 @@
        Harry Potter by J.K. Rowling
 */
 
+/*
 class Bookstore {
   constructor(books) {
     this.books = books;
@@ -60,3 +61,4 @@ const hp = new Book("Harry Potter", "J.K. Rowling");
 
 const bookstore = new Bookstore([nineteen84, hp]);
 bookstore.listBooks();
+*/
